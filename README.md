@@ -1,4 +1,4 @@
-Aqui está um exemplo de README para o projeto "Teste Técnico IWWA" baseado no código fornecido. Ele inclui um espaço reservado para uma imagem, uma descrição do que foi usado e a estrutura do projeto:
+
 
 ---
 
