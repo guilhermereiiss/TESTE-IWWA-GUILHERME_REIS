@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IWWA - GUILHERME REIS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header-container">
+        <div class="img-header">
+            <img src="assets/logo/Marca.svg" alt="Logo IWWA">
+        </div>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#"><span>Início</span></a></li>
+                <li><a href="#">Estações Completas</a></li>
+                <li><a href="#">Colabore</a></li>
+                <li><a href="#">Criativos</a></li>
+                <li><a href="#"><span>DOE AGORA</span></a></li>
+                <li><a href="#"><span>DOAÇÃO COLETIVA</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-container">
+
+        <section class="banner">
+            <div class="banner-content">
+                <div class="org-banner1">
+                    <div class="video-button">
+                        <a href="#">
+                            <img src="assets/midia/Grupo 130.svg" alt="">Assista ao nosso <br> Vídeo Manifesto.
+                        </a>
+                    </div>
+                    <div class="banner-image">
+                        <img src="assets/midia/Asset 1@2x.png" alt="Ilustração de pessoa no computador">
+                    </div>
+                </div>
+                <div class="org-banner2">
+                    <div class="banner-tlt">
+                        <!-- <div class="text-fac">
+                            <div class="main-text">100 ESTAÇÕES<br>DE TRABALHO</div>
+                            <div class="sub-text">PARA 100 CRIATIVOS GAÚCHOS</div>
+                        </div> -->
+                        <img src="assets/midia/info-init.png" alt="">
+                    </div>
+                    <p>
+                        Nosso objetivo é <strong>mobilizar o mercado criativo</strong> em solidariedade
+                        aos inúmeros colegas que, infelizmente, tiveram suas residências devastadas pela
+                        enchente no <strong>Rio Grande do Sul</strong>, perdendo tudo, inclusive seus locais de
+                        trabalho.
+                    </p>
+                    <a href="#" class="donate-button">Doe uma estação de trabalho agora!</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="container-equip">
+            <p>Até agora</p>
+            <img src="assets/midia/Grupo 457.png" alt="equipe">
+            <p>profissionais <br> vão poder voltar <br> ao trabalho graças <br> a sua ajuda.</p>
+        </div>
+
+        <section class="full-seasons">
+
+            <div class="full-seasons-title">
+                <h1>ESTAÇÕES COMPLETAS</h1>
+                <p>Todas as <strong>100 estações</strong> serão completas<br> e equipadas com os seguintes itens:</p>
+            </div>
+
+            <div class="items">
+                <div class="item">
+                    <img src="assets/midia/Grupo 134.png" alt="Computador">
+                    <p>COMPUTADOR</p>
+                </div>
+                <div class="item">
+                    <img src="assets/midia/Grupo 147.png" alt="Mesa">
+                    <p>MESA</p>
+                </div>
+                <div class="item">
+                    <img src="assets/midia/Grupo 166.png" alt="Cadeira">
+                    <p>CADEIRA</p>
+                </div>
+                <div class="item">
+                    <img src="assets/midia/Grupo 259.png" alt="Teclado e Mouse">
+                    <p>TECLADO E MOUSE</p>
+                </div>
+                <div class="item">
+                    <img src="assets/midia/Grupo 274.png" alt="Fone de Ouvido">
+                    <p>FONE DE OUVIDO</p>
+                </div>
+                <div class="item">
+                    <img src="assets/midia/Grupo 299.png" alt="1 Ano de Unhide School">
+                    <p>1 ANO DE UNHIDE SCHOOL</p>
+                </div>
+            </div>
+            <div class="separator"></div>
+        </section>
+
+
+        <section class="donation-container">
+            <div class="donation-section">
+                <p class="highlight-title">DOE AGORA!</p>
+                <p class="info-text">
+                    Para doar, <strong>selecione a quantidade <br> de estações desejadas</strong> e clique em finalizar
+                    doação.
+                </p>
+                <button class="value-button">
+                    Valor de uma estação completa: R$ 4.000,00
+                </button>
+            </div>
+        </section>
+
+        <div class="grid-container" id="lista-doacoes"></div>
+        <div class="buttonWrapper" id="donationContainer"></div>
+        <div id="grid-container" class="grid"></div>
+        <br>
+        <br>
+        <div class="separator"></div>
+
+        <div class="content-wrapper">
+            <h1 class="main-title">DOAÇÃO COLETIVA</h1>
+            <p class="description-text">
+                Doe de forma <span>coletiva</span> com cotas reduzidas.<br>
+                Selecione uma estação e aponte a quantidade de <br> cotas que você deseja doar.
+            </p>
+            <div class="cta-button">
+                <span>Valor por cota: R$ 1.000,00</span>
+            </div>
+        </div>
+
+        <div id="box-wrapper" class="grid"></div>
+        <br>
+        <div class="separator"></div>
+
+        <div class="container-doacao">
+            <h1 class="titulo">RESUMO DA DOAÇÃO:</h1>
+            <div class="resumo-doacao">
+                <div class="caixa">
+                    <span class="texto-acima">Você doou:</span>
+                    <div class="caixa-esquerda">
+                        <span class="texto-negrito">Estações de Trabalho!</span>
+                    </div>
+                </div>
+                <div class="circulo">
+                    <span>4</span>
+                </div>
+                <div class="caixa">
+                    <span class="texto-acima">Totalizando:</span>
+                    <div class="caixa-direita">
+                        <span class="texto-negrito colored-orange">R$20.000,00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="form-org">
+            <div class="form-container">
+                <form>
+                    <h2>Preencha seus dados para pagamento:</h2>
+                    <input type="text" placeholder="Nome e Sobrenome / Razão Social">
+                    <input type="text" placeholder="Telefone">
+                    <input type="email" placeholder="E-mail">
+                    <input type="text" placeholder="Doado por">
+                    <button type="submit">Doar Agora</button>
+                </form>
+            </div>
+        </section>
+        <div class="separator1"></div>
+
+        <div class="content-wrapper">
+            <img alt="QR Code for donation" class="qr-image" src="assets/midia/Grupo 411-Photoroom.png" />
+            <div class="qr-org">
+                <div class="alert-message">
+                    Ao realizar o pix, não esqueça de colocar o código VCHUR98 no campo de <br> mensagem para que
+                    possamos identificar sua transferência.
+                </div>
+                <p class="disclaimer">
+                    *A doação só será efetivada assim que identificarmos o valor na conta.
+                </p>
+            </div>
+        </div>
+        <div class="separator1"></div>
+
+        <section class="donation-container-org">
+            <div class="container-dddonation">
+                <div class="flex flex-row">
+                    <div class="card card-red">
+                        <h2>VOCÊ TAMBÉM PODE<br> APOIAR O PROJETO<br> DOANDO COMPUTADORES<br> EM BOM ESTADO.</h2>
+                        <p>Clique abaixo para conferir as <br> especificações necessárias.</p>
+                        <button>Doar seu computador</button>
+                    </div>
+                    <div class="card card-border">
+                        <h2 class="color-desq">DESEJA COLABORAR <br>DE OUTRA FORMA?</h2>
+                        <p>Se você tem interesse de apoiar <br> o projeto sem adotar uma <br> bancada, você pode
+                            fazer<br> doações diretas através do <b>PIX:</b< /p>
+                                <button class="button-sep">portoalegredenovo@miagui.cc</button>
+                    </div>
+                </div>
+                <div class="card card-border">
+                    <h2 class="text-center color-desq">INTERNATIONAL DONATIONS</h2>
+                    <p class="text-center">If you are from outside Brasil you can help us donating trough:</p>
+                    <div class="card-inner">
+                        <p>Swift Code: <strong>BRASBRRJCTA (IDENTIFICATION AID FLOOD RS MAY24)</strong></p>
+                        <p>Currency: <strong>USD</strong>
+                            Debit A/C No: <strong>91395-2</strong></p>
+                        <p>Beneficiary's Bank: <strong>Banco do Brasil</strong>Country: <strong>Brazil</strong></p>
+                        <p>IBAN Account: <strong>BR30000000000057450000913952C1</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="creative-wrapper">
+            <div class="creative-container">
+                <div class="creative-image">
+                    <img src="assets/midia/men-photo.png" alt="Criativo">
+                </div>
+                <div class="creative-title">CRIATIVOS</div>
+                <div class="creative-text">Você é criativo e gostaria de receber uma estação de trabalho?</div>
+                <a href="#" class="creative-button">Cadastre-se aqui</a>
+            </div>
+        </div>
+
+        <div class="footer-container">
+            <h1 class="footer-title">CONECTE-SE COM A GENTE</h1>
+            <p class="footer-text">Conecte-se aos nossos canais para acompanhar a evolução da nossa campanha e apoiar no
+                compartilhamento. Todo apoio é fundamental e extremamente bem-vindo!</p>
+            <div class="footer-contact-info">
+                <p><img src="assets/midia/Grupo 433.svg" alt=""></i> portoalegredenovo@miagui.cc</p>
+                <p><img src="assets/midia/Grupo 435.svg" alt=""></i> @portoalegredenovo</p>
+            </div>
+            <div class="footer-initiative">
+                <p>Uma iniciativa</p>
+                <img src="assets/midia/Grupo 440.svg" alt="">
+            </div>
+            <p class="footer-text">Esta campanha só está sendo possível graças ao apoio desses parceiros:</p>
+            <div class="footer-partners">
+                <img src="assets/midia/Grupo 442.png" alt="Logo da UNHIDE School" />
+                <img src="assets/midia/Grupo 459.svg" alt="Logo da Flexform" />
+                <img src="assets/midia/Grupo 460.svg" alt="Logo da USINA" />
+                <img src="assets/midia/Layer 2.svg" alt="Logo da IWWA" />
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.1.2/svg.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="271.464" height="50.438" viewBox="0 0 271.464 50.438">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_208" data-name="Retângulo 208" width="271.464" height="50.438" transform="translate(0 0.001)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_440" data-name="Grupo 440" transform="translate(0 -0.001)">
+    <g id="Grupo_439" data-name="Grupo 439">
+      <g id="Grupo_438" data-name="Grupo 438" clip-path="url(#clip-path)">
+        <text id="_" data-name=" " transform="translate(0 38.587)" fill="#202020" font-size="38.567" font-family="AGBuchBQ-Medium, AG Buch BQ" font-weight="500"><tspan x="0" y="0"> </tspan></text>
+        <text id="Miagui" transform="translate(10.49 38.587)" fill="#202020" font-size="45.236" font-family="AGBuchBQ-Medium, AG Buch BQ" font-weight="500"><tspan x="0" y="0" letter-spacing="-0.019em">Mia</tspan><tspan y="0" letter-spacing="-0.02em">g</tspan><tspan y="0" letter-spacing="-0.019em">u</tspan><tspan y="0">i</tspan></text>
+      </g>
+    </g>
+    <path id="Caminho_191" data-name="Caminho 191" d="M265.1,6.045l3.195,3.2h3.057l.01-.009L266.64,4.507Z" fill="#202020"/>
+    <path id="Caminho_192" data-name="Caminho 192" d="M264.574,6.574,267.24,9.24h-3.076l-1.128-1.128Z" fill="#202020"/>
+    <rect id="Retângulo_209" data-name="Retângulo 209" width="32.174" height="7.188" transform="translate(158.778 31.559)" fill="#202020"/>
+    <rect id="Retângulo_210" data-name="Retângulo 210" width="32.174" height="7.188" transform="translate(158.778 19.066)" fill="#202020"/>
+    <rect id="Retângulo_211" data-name="Retângulo 211" width="32.174" height="7.188" transform="translate(158.778 6.574)" fill="#202020"/>
+    <path id="Caminho_193" data-name="Caminho 193" d="M220.373,32.4l-9.446,9.446-5.084-5.083,7.342-7.341V19.066h7.188Z" fill="#202020"/>
+    <path id="Caminho_194" data-name="Caminho 194" d="M228.383,22.481l-5.09-5.09,3.55-3.623H200.4V6.574H233.96l0,10.3Z" fill="#202020"/>
+    <path id="Caminho_195" data-name="Caminho 195" d="M251.784,6.573v5.305h-8.329v7.188h8.329v5.305H239.291v7.188h12.493V41.844h7.188V31.559h12.491V24.371H258.972V19.066H267.3V11.878h-8.328V6.573Z" fill="#202020"/>
+  </g>
+</svg>
