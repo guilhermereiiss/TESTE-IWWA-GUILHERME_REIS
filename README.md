@@ -18,10 +18,7 @@ O projeto foi construído utilizando as seguintes tecnologias e ferramentas:
 - **CSS3**: Estilização da interface, incluindo gradientes, animações sutis e design responsivo com uso de variáveis CSS (`:root`) para cores.
 - **JavaScript**: Lógica dinâmica para geração de elementos como botões de doação, cards e grids interativos.
 - **SVG**: Arquivos vetoriais usados para ícones e elementos gráficos, manipulados diretamente no HTML ou via JavaScript.
-- **Bibliotecas Externas**:
-  - **SVG.js (v3.1.2)**: Utilizada para manipulação de SVGs no lado do cliente (carregada via CDN).
-- **Ferramentas de Desenvolvimento**:
-  - **Repomix**: Ferramenta usada para combinar o código do repositório em um único documento para análise.
+
 
 ## Estrutura do Projeto
 
