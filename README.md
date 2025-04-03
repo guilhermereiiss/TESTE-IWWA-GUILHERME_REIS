@@ -8,7 +8,7 @@ Bem-vindo ao repositório do "Teste Técnico IWWA"! Este projeto foi desenvolvid
 
 ## Imagem do Projeto
 
-![Imagem do Projeto](https://i.ibb.co/tTWkVgKk/Screenshot-43.png)
+![Imagem do Projeto](https://i.imgur.com/p53TgJV.png)
 
 ## Tecnologias Utilizadas
 
