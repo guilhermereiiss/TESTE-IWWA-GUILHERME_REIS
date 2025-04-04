@@ -34,8 +34,9 @@
     padding: 30px 50px;
     background: transparent linear-gradient(87deg, #99131A 0%, #BF4B26 100%) 0% 0% no-repeat padding-box;
     color: var(--unnamed-color-ffffff);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
+
 /* Logo */
 .logo img {
     width: 500px;
@@ -59,7 +60,8 @@
 
 .nav-list a {
     text-decoration: none;
-    color: var(--unnamed-color-ffffff);;
+    color: var(--unnamed-color-ffffff);
+    ;
     font-size: 18px;
     padding: 14px 22px;
     transition: 0.3s;
@@ -89,7 +91,8 @@
     font-size: 32px;
     background: none;
     border: none;
-    color: var(--unnamed-color-ffffff);;
+    color: var(--unnamed-color-ffffff);
+    ;
     cursor: pointer;
 }
 
@@ -246,7 +249,8 @@ p {
 .donate-button {
     display: inline-block;
     background: linear-gradient(87deg, #99131A 0%, #BF4B26 100%);
-    color: var(--unnamed-color-ffffff);;
+    color: var(--unnamed-color-ffffff);
+    ;
     padding: 15px 30px;
     border-radius: 30px;
     text-decoration: none;
@@ -692,7 +696,8 @@ p {
 .numero-doacao {
     font-size: 22px;
     font-weight: bold;
-    color: var(--unnamed-color-ffffff);;
+    color: var(--unnamed-color-ffffff);
+    ;
     position: absolute;
 }
 
@@ -830,7 +835,8 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--unnamed-color-ffffff);;
+    color: var(--unnamed-color-ffffff);
+    ;
     font-size: 40px;
     font-weight: bold;
     border: 2px solid #BF4B26;
@@ -1151,12 +1157,14 @@ p {
     align-items: center;
     padding: 12px 20px;
     font-size: 18px;
-    background-color: var(--unnamed-color-ffffff);;
+    background-color: var(--unnamed-color-ffffff);
+    ;
 }
 
 .caixa-esquerda {
     background: linear-gradient(90deg, var(--unnamed-color-99131a) 0%, var(--unnamed-color-bf4b26) 100%);
-    color: var(--unnamed-color-ffffff);;
+    color: var(--unnamed-color-ffffff);
+    ;
     border-radius: 9999px 0 0 9999px;
 }
 
@@ -1248,7 +1256,8 @@ p {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 14px;
-    var(--unnamed-color-ffffff);-space: normal;
+    var(--unnamed-color-ffffff);
+    -space: normal;
     overflow: visible;
     text-overflow: unset;
 }
@@ -1271,7 +1280,8 @@ p {
     padding: 14px;
     font-size: 1.125rem;
     background: transparent linear-gradient(90deg, var(--unnamed-color-99131a) 0%, var(--unnamed-color-bf4b26) 100%) 0% 0% no-repeat padding-box;
-    color: var(--unnamed-color-ffffff);;
+    color: var(--unnamed-color-ffffff);
+    ;
     font-weight: 600;
     border: none;
     border-radius: 9999px;
@@ -1479,7 +1489,8 @@ p {
 
 .card-border button {
     background-color: #d64a1b;
-    color: var(--unnamed-color-ffffff);;
+    color: var(--unnamed-color-ffffff);
+    ;
 }
 
 .card-red button:hover {
@@ -1645,7 +1656,8 @@ p {
 .creative-button {
     display: inline-block;
     background: transparent linear-gradient(90deg, var(--unnamed-color-99131a) 0%, var(--unnamed-color-bf4b26) 100%) 0% 0% no-repeat padding-box;
-    color: var(--unnamed-color-ffffff);;
+    color: var(--unnamed-color-ffffff);
+    ;
     padding: 18px 36px;
     border-radius: 30px;
     text-decoration: none;
