@@ -8,7 +8,7 @@ Bem-vindo ao repositório do "Teste Técnico IWWA"! Este projeto foi desenvolvid
 
 ## Imagem do Projeto
 
-![Imagem do Projeto](https://i.imgur.com/p53TgJV.png) ![Imagem Celular](https://imgur.com/a/8WCYWya)
+![Imagem do Projeto](https://i.imgur.com/p53TgJV.png) ![Imagem Celular](https://i.imgur.com/Tfah8LU.png)
 
 ## Tecnologias Utilizadas
 
