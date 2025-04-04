@@ -13,12 +13,16 @@
 </head>
 
 <body>
-    <header class="header-container">
+    <!-- <header class="header-container">
         <div class="img-header">
             <img src="assets/logo/Marca.svg" alt="Logo IWWA">
         </div>
-
-        <nav>
+        <div class="menu-toggle" id="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <nav class="nav-menu" id="nav-menu">
             <ul class="nav-links">
                 <li><a href="#"><span>Início</span></a></li>
                 <li><a href="#">Estações Completas</a></li>
@@ -28,7 +32,28 @@
                 <li><a href="#"><span>DOAÇÃO COLETIVA</span></a></li>
             </ul>
         </nav>
+    </header> -->
+
+    <header class="header">
+        <div class="logo">
+            <img src="assets/logo/Marca.svg" alt="Logo IWWA">
+        </div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#" class="btn">Início</a></li>
+                <li><a href="#">Estações Completas</a></li>
+                <li><a href="#">Colabore</a></li>
+                <li><a href="#">Criativos</a></li>
+                <li><a href="#" class="btn">DOE AGORA</a></li>
+                <li><a href="#" class="btn">DOAÇÃO COLETIVA</a></li>
+            </ul>
+
+        </nav>
+        <button class="menu-toggle" id="menu-toggle">
+            ☰
+        </button>
     </header>
+
     <main class="main-container">
 
         <section class="banner">
@@ -62,14 +87,16 @@
             </div>
         </section>
 
-        <div class="container-equip">
-            <p>Até agora</p>
-            <img src="assets/midia/Grupo 457.png" alt="equipe">
-            <p>profissionais <br> vão poder voltar <br> ao trabalho graças <br> a sua ajuda.</p>
-        </div>
+
+        <section>
+            <div class="container-equip">
+                <p>Até agora</p>
+                <img src="assets/midia/Grupo 457.png" alt="equipe">
+                <p>profissionais <br> vão poder voltar <br> ao trabalho graças <br> a sua ajuda.</p>
+            </div>
+        </section>
 
         <section class="full-seasons">
-
             <div class="full-seasons-title">
                 <h1>ESTAÇÕES COMPLETAS</h1>
                 <p>Todas as <strong>100 estações</strong> serão completas<br> e equipadas com os seguintes itens:</p>
@@ -118,48 +145,59 @@
             </div>
         </section>
 
-        <div class="grid-container" id="lista-doacoes"></div>
-        <div class="buttonWrapper" id="donationContainer"></div>
-        <div id="grid-container" class="grid"></div>
+
+        <section class="circles-edit">
+            <div class="grid-container" id="lista-doacoes"></div>
+            <div class="buttonWrapper" id="donationContainer"></div>
+            <div id="grid-container" class="grid"></div>
+        </section>
         <br>
         <br>
-        <div class="separator"></div>
+        <div class="separator1"></div>
 
-        <div class="content-wrapper">
-            <h1 class="main-title">DOAÇÃO COLETIVA</h1>
-            <p class="description-text">
-                Doe de forma <span>coletiva</span> com cotas reduzidas.<br>
-                Selecione uma estação e aponte a quantidade de <br> cotas que você deseja doar.
-            </p>
-            <div class="cta-button">
-                <span>Valor por cota: R$ 1.000,00</span>
-            </div>
-        </div>
 
-        <div id="box-wrapper" class="grid"></div>
-        <br>
-        <div class="separator"></div>
-
-        <div class="container-doacao">
-            <h1 class="titulo">RESUMO DA DOAÇÃO:</h1>
-            <div class="resumo-doacao">
-                <div class="caixa">
-                    <span class="texto-acima">Você doou:</span>
-                    <div class="caixa-esquerda">
-                        <span class="texto-negrito">Estações de Trabalho!</span>
-                    </div>
-                </div>
-                <div class="circulo">
-                    <span>4</span>
-                </div>
-                <div class="caixa">
-                    <span class="texto-acima">Totalizando:</span>
-                    <div class="caixa-direita">
-                        <span class="texto-negrito colored-orange">R$20.000,00</span>
-                    </div>
+        <section>
+            <div class="content-wrapper">
+                <h1 class="main-title">DOAÇÃO COLETIVA</h1>
+                <p class="description-text">
+                    Doe de forma <span>coletiva</span> com cotas reduzidas.<br>
+                    Selecione uma estação e aponte a quantidade de <br> cotas que você deseja doar.
+                </p>
+                <div class="cta-button">
+                    <span>Valor por cota: R$ 1.000,00</span>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <section>
+            <div id="box-wrapper" class="grid"></div>
+            <br>
+            <div class="separator1"></div>
+        </section>
+
+
+        <section>
+            <div class="container-doacao">
+                <h1 class="titulo">RESUMO DA DOAÇÃO:</h1>
+                <div class="resumo-doacao">
+                    <div class="caixa">
+                        <span class="texto-acima">Você doou:</span>
+                        <div class="caixa-esquerda">
+                            <span class="texto-negrito">Estações de Trabalho!</span>
+                        </div>
+                    </div>
+                    <div class="circulo">
+                        <span>4</span>
+                    </div>
+                    <div class="caixa">
+                        <span class="texto-acima">Totalizando:</span>
+                        <div class="caixa-direita">
+                            <span class="texto-negrito colored-orange">R$20.000,00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section class="form-org">
             <div class="form-container">
@@ -175,18 +213,21 @@
         </section>
         <div class="separator1"></div>
 
-        <div class="content-wrapper">
-            <img alt="QR Code for donation" class="qr-image" src="assets/midia/Grupo 411-Photoroom.png" />
-            <div class="qr-org">
-                <div class="alert-message">
-                    Ao realizar o pix, não esqueça de colocar o código VCHUR98 no campo de <br> mensagem para que
-                    possamos identificar sua transferência.
+
+        <section>
+            <div class="content-wrapper">
+                <img alt="QR Code for donation" class="qr-image" src="assets/midia/Grupo 411-Photoroom.png" />
+                <div class="qr-org">
+                    <div class="alert-message">
+                        Ao realizar o pix, não esqueça de colocar o código VCHUR98 no campo de <br> mensagem para que
+                        possamos identificar sua transferência.
+                    </div>
+                    <p class="disclaimer">
+                        *A doação só será efetivada assim que identificarmos o valor na conta.
+                    </p>
                 </div>
-                <p class="disclaimer">
-                    *A doação só será efetivada assim que identificarmos o valor na conta.
-                </p>
             </div>
-        </div>
+        </section>
         <div class="separator1"></div>
 
         <section class="donation-container-org">
@@ -209,49 +250,54 @@
                     <p class="text-center">If you are from outside Brasil you can help us donating trough:</p>
                     <div class="card-inner">
                         <p>Swift Code: <strong>BRASBRRJCTA (IDENTIFICATION AID FLOOD RS MAY24)</strong></p>
-                        <p>Currency: <strong>USD</strong>
-                            Debit A/C No: <strong>91395-2</strong></p>
-                        <p>Beneficiary's Bank: <strong>Banco do Brasil</strong>Country: <strong>Brazil</strong></p>
+                        <p>Currency: <strong>USD</strong></p>
+                        <p>Debit A/C No: <strong>91395-2</strong></p>
+                        <p>Beneficiary's Bank: <strong>Banco do Brasil</strong></p>
+                        <p>Country: <strong>Brazil</strong></p>
                         <p>IBAN Account: <strong>BR30000000000057450000913952C1</strong></p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <div class="creative-wrapper">
-            <div class="creative-container">
-                <div class="creative-image">
-                    <img src="assets/midia/men-photo.png" alt="Criativo">
+        <section>
+            <div class="creative-wrapper">
+                <div class="creative-container">
+                    <div class="creative-image">
+                        <img src="assets/midia/men-photo.png" alt="Criativo">
+                    </div>
+                    <div class="creative-title">CRIATIVOS</div>
+                    <div class="creative-text">Você é criativo e gostaria de receber uma estação de trabalho?</div>
+                    <a href="#" class="creative-button">Cadastre-se aqui</a>
                 </div>
-                <div class="creative-title">CRIATIVOS</div>
-                <div class="creative-text">Você é criativo e gostaria de receber uma estação de trabalho?</div>
-                <a href="#" class="creative-button">Cadastre-se aqui</a>
             </div>
-        </div>
+        </section>
 
-        <div class="footer-container">
-            <h1 class="footer-title">CONECTE-SE COM A GENTE</h1>
-            <p class="footer-text">Conecte-se aos nossos canais para acompanhar a evolução da nossa campanha e apoiar no
-                compartilhamento. Todo apoio é fundamental e extremamente bem-vindo!</p>
-            <div class="footer-contact-info">
-                <p><img src="assets/midia/Grupo 433.svg" alt=""></i> portoalegredenovo@miagui.cc</p>
-                <p><img src="assets/midia/Grupo 435.svg" alt=""></i> @portoalegredenovo</p>
+        <section>
+            <div class="footer-container">
+                <h1 class="footer-title">CONECTE-SE COM A GENTE</h1>
+                <p class="footer-text">Conecte-se aos nossos canais para acompanhar a evolução da nossa campanha e
+                    apoiar no
+                    compartilhamento. Todo apoio é fundamental e extremamente bem-vindo!</p>
+                <div class="footer-contact-info">
+                    <p><img src="assets/midia/Grupo 433.svg" alt=""></i> portoalegredenovo@miagui.cc</p>
+                    <p><img src="assets/midia/Grupo 435.svg" alt=""></i> @portoalegredenovo</p>
+                </div>
+                <div class="footer-initiative">
+                    <p>Uma iniciativa</p>
+                    <img src="assets/midia/Grupo 440.svg" alt="">
+                </div>
+                <p class="footer-text">Esta campanha só está sendo possível graças ao apoio desses parceiros:</p>
+                <div class="footer-partners">
+                    <img src="assets/midia/Grupo 442.png" alt="Logo da UNHIDE School" />
+                    <img src="assets/midia/Grupo 459.svg" alt="Logo da Flexform" />
+                    <img src="assets/midia/Grupo 460.svg" alt="Logo da USINA" />
+                    <img src="assets/midia/Layer 2.svg" alt="Logo da IWWA" />
+                </div>
             </div>
-            <div class="footer-initiative">
-                <p>Uma iniciativa</p>
-                <img src="assets/midia/Grupo 440.svg" alt="">
-            </div>
-            <p class="footer-text">Esta campanha só está sendo possível graças ao apoio desses parceiros:</p>
-            <div class="footer-partners">
-                <img src="assets/midia/Grupo 442.png" alt="Logo da UNHIDE School" />
-                <img src="assets/midia/Grupo 459.svg" alt="Logo da Flexform" />
-                <img src="assets/midia/Grupo 460.svg" alt="Logo da USINA" />
-                <img src="assets/midia/Layer 2.svg" alt="Logo da IWWA" />
-            </div>
-        </div>
+        </section>
     </main>
     <script src="script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.1.2/svg.min.js"></script>
 
 </body>
 
